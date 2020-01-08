@@ -12,7 +12,7 @@ public class Main {
 		System.out.println("구분선====================");
 		
 		int result2 = obj.fibo2(10);
-		System.out.println("Result of Fibonacci excursion type: " + result2);
+		System.out.println("Result of Fibonacci recursion type: " + result2);
 	}
 
 }
