@@ -6,6 +6,12 @@ public class Student {
 	private int num;
 	private String major;
 	
+	//클래스 안에 {    }를 만들고 작성하면 생성자를 호출할 때 생성자보다 먼저 호출해버림
+	{
+		System.out.println("객체를 생성합니다.");
+	}
+	
+	
 	//Student 클래스의 생성자
 	// 생성자는 리턴 타입 없이 클래스 이름 그대로 사용한다!
 	// 매개변수가 없는 생성자를 Default constructor라고 부름
@@ -46,5 +52,6 @@ public class Student {
 	public void setMajor(String major) {
 		this.major = major;
 	}
+	
 
 }//코딩 끝
